@@ -3,7 +3,7 @@ interview-us-news
 
 A coding [exercise](https://github.com/jeff1evesque/interview-usnews/blob/master/data/coding_assessment_instructions.txt) was given to me when I interviewed for a Software Developer position at the [US News & World Report](http://www.usnews.com/).  The exercise was restricted to 2 hours, and to be submitted within 5 business days.  Since this exercise was rather primitive, and the position premised on the python language, no arbitrary css, or js was coded.
 
-**Note:** the exercise instructions can be found in the [`data/`](https://github.com/jeff1evesque/interview-usnews/tree/master/data/) subdirectory, as [coding_assessment_instructions.txt](https://github.com/jeff1evesque/interview-usnews/blob/master/data/coding_assessment_instructions.txt).
+**Note:** the exercise [instructions](https://github.com/jeff1evesque/interview-usnews/blob/master/data/coding_assessment_instructions.txt) can be found in the [`data/`](https://github.com/jeff1evesque/interview-usnews/tree/master/data/) subdirectory.
 
 ## Installation
 
