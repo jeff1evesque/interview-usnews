@@ -1,3 +1,8 @@
 # Ignore and don't commit the following directories
 
 # Ignore and don't commit the following files
+/*.pyc
+/package/*.pyc
+/package/calculator/*.pyc
+/package/validator/*.pyc
+
