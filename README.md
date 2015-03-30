@@ -1,9 +1,9 @@
-interview-us-news
+interview-usnews
 ================
 
 A coding [exercise](https://github.com/jeff1evesque/interview-usnews/blob/master/data/coding_assessment_instructions.txt) was given to me when I interviewed for a Software Developer position at the [US News & World Report](http://www.usnews.com/).  The exercise was restricted to 2 hours, and to be submitted within 5 business days.  Since this exercise was rather primitive, and the position premised on the python language, no arbitrary css, or js was coded.
 
-**Note:** the exercise instructions can be found in the [`data/`](https://github.com/jeff1evesque/interview-usnews/tree/master/data/) subdirectory, as [coding_assessment_instructions.txt](https://github.com/jeff1evesque/interview-usnews/blob/master/data/coding_assessment_instructions.txt).
+**Note:** the exercise [instructions](https://github.com/jeff1evesque/interview-usnews/blob/master/data/coding_assessment_instructions.txt) can be found in the [`data/`](https://github.com/jeff1evesque/interview-usnews/tree/master/data/) subdirectory.
 
 ## Installation
 
@@ -34,7 +34,7 @@ sudo git clone https://[YOUR-USERNAME]@github.com/[YOUR-USERNAME]/interview-usne
 Then, change the *file permissions* for the entire project by issuing the command:
 
 ```
-cd /var/www/
+cd /var/www/interview-usnews/
 sudo chown -R jeffrey:sudo interview-usnews
 ```
 
@@ -43,7 +43,7 @@ sudo chown -R jeffrey:sudo interview-usnews
 Then, add the *Remote Upstream*, this way we can pull any merged pull-requests:
 
 ```
-cd /var/www/
+cd /var/www/interview-usnews/
 git remote add upstream https://github.com/[YOUR-USERNAME]/interview-usnews.git
 ```
 
