@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{#
+  index.html: initial landing page with directions.
+#}
+<html>
+  <head>
+    <script src='/static/js/jquery-2.1.1.js'></script>
+    <link rel='stylesheet' href='/static/css/style.css'>
+  </head>
+  <body>
+    <p>Please type in the browser address bar, the following URL pattern:</p>
+    <div>{{request.url}}api?word=xxx&max_value=yyy</div>
+    <p>Note: xxx is a string value, and must be one of the following values:</p>
+    <ul>
+      {% for item in ['fizz', 'buzz', 'fizzbuzz'] %}
+        <li>{{item}}</li>
+      {% endfor %}
+    </ul>
+    <p>Note: yyy must be an integer value</p>
+  </body>
+</html>
+
