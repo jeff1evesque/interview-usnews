@@ -34,7 +34,7 @@ sudo git clone https://[YOUR-USERNAME]@github.com/[YOUR-USERNAME]/interview-usne
 Then, change the *file permissions* for the entire project by issuing the command:
 
 ```
-cd /var/www/
+cd /var/www/interview-usnews/
 sudo chown -R jeffrey:sudo interview-usnews
 ```
 
@@ -43,7 +43,7 @@ sudo chown -R jeffrey:sudo interview-usnews
 Then, add the *Remote Upstream*, this way we can pull any merged pull-requests:
 
 ```
-cd /var/www/
+cd /var/www/interview-usnews/
 git remote add upstream https://github.com/[YOUR-USERNAME]/interview-usnews.git
 ```
 
