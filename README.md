@@ -45,6 +45,7 @@ Then, add the *Remote Upstream*, this way we can pull any merged pull-requests:
 ```
 cd /var/www/
 git remote add upstream https://github.com/[YOUR-USERNAME]/interview-usnews.git
+```
 
 ###Flask
 
