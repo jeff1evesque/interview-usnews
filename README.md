@@ -1,4 +1,4 @@
-interview-us-news
+interview-usnews
 ================
 
 A coding [exercise](https://github.com/jeff1evesque/interview-usnews/blob/master/data/coding_assessment_instructions.txt) was given to me when I interviewed for a Software Developer position at the [US News & World Report](http://www.usnews.com/).  The exercise was restricted to 2 hours, and to be submitted within 5 business days.  Since this exercise was rather primitive, and the position premised on the python language, no arbitrary css, or js was coded.
