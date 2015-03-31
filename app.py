@@ -61,7 +61,7 @@ def api():
         return json.dumps(calculated)
     else:
         error = 'Must provide valid \'GET\' request with \'word\', and \'max_value\''
-        return {'status': 'error', 'result': None, 'error': error}
+        return json.dumps({'status': 'error', 'result': None, 'error': error})
 
 # Execute: run application directly, instead of import
 if __name__ == '__main__':
