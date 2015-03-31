@@ -21,13 +21,13 @@ class Validate_Input(object):
             self.list_error.append(self.word + ' must be one of ' + ', '.join(self.word_choice))
             self.status = False
         try:
-            int(self.max_value)
+            self.max_value = int(self.max_value)
         except Exception as error:
-            self.list_error.append(self.max_value + ' must be an integer value')
+            self.list_error.append(str(self.max_value) + ' must be an integer value')
             self.status = False
 
         if self.max_value < 1:
-            self.list_error.append(self.max_value + ' must be greater than 0')
+            self.list_error.append(str(self.max_value) + ' must be greater than 0')
             self.status = False
 
     ## get_status: returns True if validation succeeded
