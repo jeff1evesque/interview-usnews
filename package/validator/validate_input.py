@@ -20,6 +20,8 @@ class Validate_Input(object):
         if self.word not in self.word_choice:
             self.list_error.append(self.word + ' must be one of ' + ', '.join(self.word_choice))
             self.status = False
+
+        # validate positive integer
         try:
             self.max_value = int(self.max_value)
 
