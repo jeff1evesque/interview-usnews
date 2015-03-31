@@ -22,12 +22,13 @@ class Validate_Input(object):
             self.status = False
         try:
             self.max_value = int(self.max_value)
+
+            if self.max_value < 1:
+                self.list_error.append(str(self.max_value) + ' must be greater than 0')
+                self.status = False
+
         except Exception as error:
             self.list_error.append(str(self.max_value) + ' must be an integer value')
-            self.status = False
-
-        if self.max_value < 1:
-            self.list_error.append(str(self.max_value) + ' must be greater than 0')
             self.status = False
 
     ## get_status: returns True if validation succeeded
